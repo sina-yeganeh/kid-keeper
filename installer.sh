@@ -1,6 +1,4 @@
 #!/bin/sh
 
 mkdir ./screenshot_images/
-
-pip3 install pyautogui
-pip3 install colorama
+pip3 install -r requirements.txt
