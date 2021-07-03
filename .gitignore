@@ -1,1 +1,4 @@
 env
+*.pyc
+__pycache__
+screenshot_images
