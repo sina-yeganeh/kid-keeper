@@ -17,8 +17,8 @@ def cli_app():
         if number == 0:
             sys.exit()
         elif number == 1:
-            number_of_take_screenshot = int(input(c.RED + " [" + c.WHITE + "~" + c.RED + "] " + c.BLUE + "Please enter your screenshot number > "))
-            waiting_time = int(input(c.RED + " [" + c.WHITE + "~" + c.RED + "] " + c.BLUE + "Please enter your waiting time > "))
+            number_of_take_screenshot = int(input(c.RED + " [" + c.WHITE + "~" + c.RED + "] " + c.BLUE + "Please enter number of screenshots > "))
+            waiting_time = int(input(c.RED + " [" + c.WHITE + "~" + c.RED + "] " + c.BLUE + "Please enter delay (seconds) > "))
             kk.take_screenshot(number_of_take_screenshot, waiting_time)
             waiting_input()
         elif number == 2:
